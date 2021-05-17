@@ -1,0 +1,23 @@
+{
+  "name": "languaza",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Pranav016/Languaza.git",
+  "author": "Pranav <pranavmendi@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.12.9",
+    "translate": "^1.2.3"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "lint-check": "eslint . --ext .js",
+    "lint": "eslint --fix . --ext .js"
+  },
+  "devDependencies": {
+    "eslint": "^7.26.0",
+    "prettier": "^2.3.0"
+  }
+}
